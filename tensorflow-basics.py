@@ -1,10 +1,9 @@
 import os
+import tensorflow as tf
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-import tensorflow as tf
-
-print(tf.__version__)
+print('tensorflow version ', tf.__version__)
 
 # INITIALIZATION OF TENSORS
 x = tf.constant(4)
